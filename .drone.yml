@@ -2,7 +2,7 @@ kind: pipeline
 name: Build Bot
 
 steps:
-- name: Pixel Experience - Gemini
+- name: Pixel Experience - Jasmine_Sprout
   image: baalajimaestro/android_build:latest
   environment:
     TELEGRAM_TOKEN:
@@ -12,6 +12,6 @@ steps:
     GITHUB_TOKEN:
       from_secret: GITHUB_TOKEN
   commands:
-  - echo gemini > /tmp/device
+  - echo jasmine_sprout > /tmp/device
   - echo xiaomi > /tmp/oem
   - bash ./setup.sh

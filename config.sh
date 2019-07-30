@@ -4,7 +4,7 @@ GITHUB_USER=joaomiguelsm
 GITHUB_EMAIL=joaomiguel0100@gmail.com
 
 KBUILD_BUILD_USER="joaomattos"
-KBUILD_BUILD_HOST="drinker"
+KBUILD_BUILD_HOST="drunker"
 
 ROM="PixelExperience"
 manifest_url="https://github.com/PixelExperience/manifest"
